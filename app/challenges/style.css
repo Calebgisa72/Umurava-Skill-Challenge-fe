@@ -1,0 +1,1311 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grand-container
+{
+    
+    width: 97%;
+    min-height: 80%;
+    margin-left:1.5% ; 
+    overflow: scroll;
+    justify-content: space-around;
+    
+}
+.subscribe-p
+{
+color:white ;
+font-size: small;
+font-weight: bold;
+    
+}
+.email-input {
+    padding: 0.5rem; 
+    border-radius: 0.375rem; 
+    font-size: 1.125rem; 
+    border: none; 
+    outline: none; 
+}
+.address-icon
+{
+    color: white; 
+    padding: 0.5rem; 
+    width: 32px;
+    height: 32px;
+}
+.social-icon
+{
+    color: #3b82f6; 
+    background-color: rgb(243, 243, 245); 
+    padding: 0.5rem; 
+    border-radius: 9999px; 
+    width: 32px;
+    height: 32px;
+}
+.address-small-p
+{
+    color:rgb(242, 242, 245) ;
+    font-size: small;
+    
+}
+.address-heading
+{
+   color: rgb(242,242,245); 
+   font-size: small;
+   font-weight: bold;
+   margin-left: 3px;
+}
+.open-link-grand
+{
+    display: none;
+}
+
+
+.header-container {
+    
+    width: 100%;
+    height: 10%;
+    
+}
+.challenge-text {
+    color: #3b82f6; 
+    font-size: 0.875rem; 
+    margin-left: 0.5rem; 
+}
+.back-arrow
+{
+    height: 12px;
+    width: 30px;
+}
+.go-back-grand
+{
+    height: 2rem;
+    justify-content: space-around;
+    display: flex;
+    min-width: 100%;
+}
+.go-back
+{
+    
+    width:97%;
+    
+    height:'10%';
+    
+    display: flex;
+
+}
+.go-back-link {
+    color: black;
+    font-size: 2px;
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    
+    width: '40%';
+}
+.arrow-div {
+    
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.lower-div
+{
+    width:100%;
+    height:60%;
+    
+    margin-top: 7%;
+
+}
+.two-div
+{
+    
+    width:'50%';
+    height:auto;
+}
+.upper-div{
+    
+   width:'100%';
+   height:'50%';
+   display: flex;
+   align-items: center;
+   
+
+}
+.challenge
+{   
+   
+    
+    min-width: 100%;
+    min-height:30rem;
+
+}
+.challenge2
+{   
+    
+    max-width: 47%;
+    max-height:30rem;
+   
+
+}
+
+.thumbnail-div
+{
+    
+    
+    background-color: rgb(24, 13, 232);
+    min-height:12rem;
+    border-radius: 12px;
+    
+}
+.open-div
+{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 4px;
+    
+    max-height:2rem;
+    
+}
+.flex-div
+{
+    
+   min-width: 3rem;
+   max-height: 1.3rem;
+   justify-content: center;
+   align-items: center
+}
+.open-link
+{
+    
+    min-width: 3rem;
+    max-height:1.3rem;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: green;
+    display: flex;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+
+}
+.white-p {
+     @apply text-white text-sm;  
+    
+}
+.umurava
+{
+    
+    min-height: 4rem;
+    margin-top: 3rem;
+}
+.descript
+{
+   
+    
+    margin-top: 6px;
+    min-height: 1.2rem;
+}
+.descript-p
+{
+    color:'black';
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+.descript-small-p
+{
+    color:'black';
+    font-size:0.7rem ;
+}
+.go-back-text
+{
+    color: black;
+    font-size: 0.875rem; 
+    margin-left: 0.5rem; 
+}
+.skills
+{
+    
+    
+    min-height: 2rem;
+    min-width: fit-content;
+    margin-top: 9px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+}
+
+.skill-container
+{
+    @apply border border-blue-500;
+    min-width:3.2rem;
+    min-height:1.5rem ;
+    border-radius: 8px;
+    
+
+}
+.skill-p
+{
+    color:rgb(0, 187, 255);
+    font-size: 12px;
+}
+.seniority
+{
+    
+    margin-top: 0.4rem;
+    align-items: center;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.seniority-p{
+   color: black;
+   font-weight: bold;
+   font-size: 13px;
+   
+}
+.small-p
+{
+  font-size: 12px;
+}
+.timeline
+{
+    
+    display: flex;
+    flex-wrap: nowrap;
+    
+
+}
+.timeline-p
+{
+     font-size: 12px;
+     font-weight: 1000;
+}
+.timeline-small-p
+{
+    font-size: 12px;
+    margin-left:7px
+    
+}
+.view-challenge
+{
+    
+    margin-top: 1rem;
+    max-width: 6rem;
+    min-height: 2rem;
+   
+}
+.view-button
+{
+  background-color: rgb(24, 13, 232);
+  color: white;              
+  padding: 6px 10px;       
+  border-radius: 8px;        
+  cursor: pointer;        
+  transition: background-color 0.3s ease; 
+  font-size: 10px;
+}
+.footer{
+    
+    max-width:97%; 
+    margin-left:1.5%;
+    min-height: 20rem;
+    background-color: rgb(7, 7, 76);
+    
+}
+.footer1{
+    
+    max-width:100%; 
+    
+    min-height: 20rem;
+    background-color: rgb(7, 7, 76);
+    
+}
+.upper-footer
+{
+    
+    min-width: 100%;
+    min-height:3rem ;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.footer-image
+{
+    
+    min-width:20% ; 
+    min-height:3rem ;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    
+} 
+.social-div
+{
+   
+    
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 1rem;
+    max-width:30%;
+    
+}
+.facebook
+{
+    
+    min-width: 10%; 
+    min-height: 70%;
+    background-color: transparent;
+    justify-content: center;
+    
+    border-radius: 50px;
+    margin-right: 12px;
+    
+}
+.facebook-link
+{
+   
+    justify-content: center;
+    display: inline-block; 
+    align-items: center;
+    margin-top: 0.3rem;
+}
+.middle-div
+{
+   
+     min-width: 100%;
+     min-height: 15rem;
+}
+.upper-address
+{
+   
+    min-width: fit-content;
+    min-height: 9rem;
+    display: flex;
+}
+.address{
+   
+   min-width: 50%;
+   min-height: 100%;
+   
+   gap: 40%;
+
+   
+  
+}
+.address-heading
+{
+    
+    min-width: 100%;
+    max-height: 27%; 
+    align-items: center;
+    
+}
+.address-field
+{
+    
+    min-width: 100%;
+    max-height:32%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-top: 1rem;
+}
+.email-field
+{
+    
+    
+    display: flex;
+    align-items: center;
+    min-height:fit-content ;
+    min-width:80% ;
+}
+.quick-links
+{
+    
+    flex:1; 
+    min-height: 100%;
+    justify-content: center;
+}
+.link-heading
+{
+    
+    min-height: 18%;
+    min-width: 100%;
+}
+.subscribe
+{
+   
+    max-height: 2rem;
+    
+
+}
+.subscribe-heading
+{
+    
+    min-height: 2rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.custom-line {
+    border: none;
+    border-top: 2px solid white;  
+    
+    margin-top: 2px;   
+    width: 100%;
+}
+.subscribe-content
+{
+   
+    width:90%;
+    margin-left:5%;
+    max-height:3rem;
+    background-color: white;
+    border-radius: 12px;
+    display:flex;
+    margin-top: 0.5rem;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+.sub-email
+{
+   
+}
+.subscribe-button
+{
+    
+    min-width:7rem; 
+    min-height:2rem;  
+    margin-right: 0.3rem;
+    border-radius: 13px;
+    background-color: rgb(17, 222, 212);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.subscribe-p
+{
+    color: white; 
+    font-size: 0.875rem; 
+    font-weight: 700; 
+}
+.copyright
+{
+    
+     min-width: 100%;
+     min-height: 5rem;
+     
+     justify-content: space-between;
+}
+.copyright-part
+{
+   
+     min-width: 50%;
+     max-height:2rem;
+     align-items: center;
+     display: flex;
+     
+}
+.copyright-part2
+{
+     min-width: 50%;
+     min-height:2rem;
+     align-items: center;
+     display: flex;
+     
+}
+.copyright-p
+{
+    color:white;
+    font-size: 12px;
+     
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:391px) 
+{
+.upper-div{
+     
+       
+       justify-content: space-around
+    
+    } 
+    .challenge
+    {   
+       
+        
+        max-width: 47%;
+        min-height:30rem;
+    
+    }  
+
+}
+
+
+
+@media (min-width:579px) 
+{
+    .challenge
+    {   
+       
+        
+        max-width: 47%;
+        min-height:20%;
+    
+    }   
+    .upper-div{
+        
+         
+         justify-content: space-around;
+         height:10%;
+      
+      } 
+      .thumbnail-div
+      {
+          
+          
+          background-color: rgb(24, 13, 232);
+          min-height:10rem;
+          border-radius: 12px;
+          
+      }  
+      .umurava
+        {
+          
+          margin-top: 27px;
+          justify-content: center;
+          align-items: center;
+          
+          
+         }
+         .custom-image
+         {
+            width: 70%;
+            margin-left: 15%;
+             
+         }
+         .custom-image-footer
+         {
+            width: 70%;
+            margin-left: 15%;
+             
+         }
+         .open-link
+         {
+            margin-top: 7px;  
+            min-width: 4rem;  
+         }
+         .descript-p
+         {
+            font-size: 15px;
+         }
+         .descript-small-p
+         {
+            font-size: 15px;
+         }
+         .skill-container
+         {
+       
+         justify-content: space-around;
+         align-items: center;
+         
+         display: flex;
+         max-height: 1.2rem;
+         
+         border-radius: 8px;
+         
+         }
+         
+        
+}
+
+
+
+
+
+
+
+
+@media(min-width:705px)
+{
+    
+         
+        .small-p
+        {
+            margin-left: 5px;
+        }
+        
+        
+    
+}
+
+
+
+
+
+@media(min-width:730px)
+{
+    .go-back
+    {  
+       
+        max-width: 94%;
+        
+    }
+    .grand-container
+    {
+        justify-content: space-between;
+    }
+}
+
+
+@media(min-width:800px)
+{
+    .go-back
+    {
+        max-width:90% ;
+        
+        
+    }
+}
+
+
+
+@media(min-width:919px)
+{
+    .umurava
+    {
+        
+        min-height: 5rem;
+        margin-top: 3.4rem;
+    }
+    .custom-image
+    {
+       width: 80%;
+       margin-left: 10%;
+        
+    }
+    .thumbnail-div
+    {
+    
+    
+    background-color: rgb(24, 13, 232);
+    min-height:16rem;
+    border-radius: 12px;
+    }
+    .open-link
+    {
+       margin-top: 7px;  
+       min-width: 7rem;
+       min-height: 2.4rem;  
+    }
+    .white-p
+    {
+        font-size: 20px;
+    }
+    .descript-p
+    {
+        font-size: 25px;
+    }
+    .descript-small-p
+    {
+        font-size: 20px;
+    }
+    .skill-container
+     {
+    
+    min-width:8rem;
+    min-height:2rem ;
+    
+    
+
+     }
+     .skill-p ,.seniority-p, .small-p ,.timeline-p,.timeline-small-p
+     {
+        font-size: 17px;
+     }
+     .view-challenge
+      {
+          
+          margin-top: 1rem;
+          max-width: 12rem;
+          min-height: 2.3rem;
+         
+      }
+      .view-button
+      {
+                     
+        padding: 10px 40px;       
+        border-radius: 8px;        
+        margin-bottom:8px ;     
+        
+        font-size: 15px;
+      }
+      
+        .go-back
+        {
+            
+            
+            
+            max-height:2rem;
+            max-width:97% ;
+            
+        
+        }
+        .go-back-grand
+        {
+            min-height: 3rem;
+            margin-bottom: -1rem;
+            margin-top: 2rem;
+        }
+        .back-arrow
+        {
+            min-height: 2rem;
+            
+            
+        }
+        .go-back-text,.challenge-text
+        {
+            font-size: 19px;
+        }
+        .two-div
+        {
+            
+            min-height: 70rem;
+            
+        }
+        .upper-div
+        {
+            margin-top: 4rem;
+        }
+       .challenge2
+       {
+       
+        max-height: 80rem;
+       }
+       
+       
+           
+}
+
+
+
+
+@media(min-width:1031px)
+{
+    .go-back
+    {
+        max-width: 88%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media(min-width:1200px)
+{
+    .two-div
+    {
+        display: flex;
+        min-height: 40rem;
+
+    }
+    .go-back
+    {
+        min-width: 98%;
+    }
+    .go-back-grand
+    {
+        margin-bottom: -6rem;
+    }
+    .descript-p
+    {
+        font-size: 18px;
+    }
+    .descript-small-p
+    {
+        font-size: 15px;
+    }
+    .skill-container
+    {
+        max-height: 1px;
+        max-width: 1px;
+        
+    }
+    .small-p,.seniority-p,.timeline-p,.timeline-small-p
+    {
+        font-size: 14px;
+    }
+    .timeline
+    {
+        margin-top: 2px;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+@media(min-width:1670px)
+{
+    .lower-div
+    {
+        min-width: 100%;
+    }
+    
+
+}
+
+
+@media(min-width:1670px)
+{
+    
+    .grand-container
+     {
+         
+         width: 90%;
+         min-height: auto;
+         margin-left:5% ; 
+         overflow: hidden
+     }
+     .back-arrow
+     {
+        height:1.4rem ;
+        width: 1.4rem;
+     }
+     .challenge2
+     {
+        max-width: 38%;
+        
+        
+
+     }
+     
+     .upper-div
+     {
+        display: flex;
+        min-width: 50%;
+        min-height: 200px;
+        
+        justify-content: space-around;
+     }
+     .two-div
+     {
+        justify-content: space-around;
+        
+        max-height: 2rem;
+        margin-top: -1.5rem;
+     }
+     .header-container
+     {
+        
+        width:92%;
+        margin-left: 4%;
+     }
+     .go-back
+     {
+        
+        margin-left: 2.8%;
+        
+     }
+     .go-back-grand
+     {
+        margin-top: 9rem;
+     }
+     .thumbnail-div
+     {
+        max-height:2px !important;
+        
+     }
+     .thumbnail-grand
+     {
+        max-height: 14rem;
+        overflow: hidden;
+        border-radius: 8px;
+     }
+     .umurava
+     {
+        margin-top: 3.5rem;
+     }
+
+     .white-p
+     {
+        font-size: 16px;
+     }
+     .open-link-grand
+     {
+           display: flex;
+           max-height: 1rem;
+           
+            background-color: green;
+           min-width: 6rem;
+           min-height:2rem;
+           margin-top: 0.7rem;
+           margin-right: 0.9rem;
+           justify-content: center;
+           border-radius: 8px;
+           align-items: center;
+     }
+     .open-link
+     {
+        display: none;
+     }
+     .descript-p
+     {
+        font-size: 20px;
+     }
+     .descript-small-p
+     {
+        font-size: 14px;
+     }
+     .skill-container
+     {
+         border: 1.2px solid blue;
+         min-width:5.7rem;
+         min-height:1.9rem ;
+         border-radius: 10px;
+
+         
+     
+     }
+     .skill-p
+     {
+        font-size: 13px;
+     }
+     .timeline
+     {
+        margin-top: 1rem;
+     }
+     .descript
+     {
+        margin-top: 1rem;
+     }
+     .view-challenge
+      {
+          
+          margin-top: 2rem;
+          max-width: 12rem;
+          min-height: 2.5rem;
+          
+      }
+      .view-button
+      {
+                     
+        padding: 10px 15px;       
+        border-radius: 8px;        
+        margin-bottom:8px ;     
+        
+        font-size: 15px;
+      }
+     
+     
+
+
+     
+     
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:623px)
+{
+    .copyright
+    {
+       display: flex;
+      
+       max-height: 2px;
+    }
+    .copyright-part
+    {
+        align-items: center;
+        
+    }
+    .copyright-part2
+    {
+        
+        max-height:1rem ;
+        display: flex;
+        justify-content: right;
+    }
+    .copyright-p
+    {
+        margin-left: 16px;
+    }
+}
+
+
+
+
+@media(min-width:839px)
+{
+    .middle-div
+    {
+        display: flex;
+    }
+    .upper-address
+    {
+        
+        width:50%;
+        margin-top: 2rem;
+        height: 3rem;
+    }
+    .subscribe
+    {
+        
+
+        max-width:30%;
+        margin-top: 2rem;
+        
+        min-height: 18rem;
+    }
+    .subscribe-content
+    {
+        
+        margin-top: 2rem;
+    }
+    
+    .footer
+    {
+        min-height: 15rem;
+        
+        
+        
+        margin-bottom: -90rem;
+    }
+    .upper-footer
+    {
+        max-height: 8rem;
+    }
+    .social-div
+    {
+        
+        display: flex;
+    }
+    .copyright-p
+    {
+        font-size: 15px;
+    }
+}
+
+
+
+@media(min-width:917px)
+{
+    .custom-image-footer
+    {
+       width: 70%;
+       margin-left: 15%;
+       max-height: 90%;
+        
+    } 
+    .copyright,.copyright-part,.copyright-part2
+    {
+        
+    }
+    
+}
+
+
+
+
+@media(min-width:1261px)
+{
+    .upper-address
+    {
+        min-height: 10rem;
+        min-width: 69%;
+    }
+    .address-heading
+    {
+        font-size: 18px;
+    }
+    .address-small-p
+    {
+        font-size: 17px;
+    }
+    .subscribe-p
+    {
+        font-size: 23px;
+    }
+    .subscribe-content
+    {
+        
+        min-width: 17rem;
+        min-height: 3.5rem;
+    }
+    .copyright-p
+    {
+        font-size: 19px;
+    }
+}
+
+
+@media(min-width:1600px)
+{
+    .footer1,.footer
+    {
+        min-height: 45rem;
+    }
+    .footer
+    {
+        max-width: 85%;
+        margin-left: 7.5%;
+    }
+    .upper-footer
+    {
+        min-height: 14rem;
+    }
+    .middle-div
+    {
+        min-height: 23rem;
+    }
+    .social-div
+    {
+        min-width:15%;
+        max-height: 4rem;
+        margin-top: 5%;
+    }
+    .upper-address
+    {
+        min-height: 17rem;
+    }
+    .copyright
+    {
+        margin-top: 3rem;
+    }
+    .copyright-part,.copyright-part2
+    {
+        min-height: 3rem;
+    }
+    .address-heading
+    {
+       font-size: 27px;
+    }
+    .address-small-p
+    {
+        font-size: 20px;
+    }
+    .subscribe-p
+    {
+        font-size: 30px;
+    }
+    .subscribe-content
+    {
+        min-height: 6rem;
+        min-width: 100%;
+        margin-left: 0%;
+    }
+    .subscribe-button
+    {
+        min-height: 5rem;
+        min-width: 12rem;
+    }
+    .address-icon
+    {
+        min-width:3rem;
+        min-height: 3rem;
+        
+        
+    }
+    .social-icon
+    {
+         min-width:3rem ;
+         min-height: 3rem;
+    }
+    .subscribe-text
+     {
+          color: white; 
+          font-size: 20px; 
+          font-weight: 700; 
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:393px)
+{
+    .two-div,.upper-div
+    {
+        border: 2px solid forestgreen;
+    }
+    .challenge2
+    {
+        border: 2px solid red;
+    }
+    .upper-div
+    {
+        justify-content: space-around;
+    }
+}
+
+
+
+@media(max-width:287px)
+{
+    .two-div
+    {
+        margin-top: 100rem;
+    }
+}

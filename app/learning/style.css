@@ -1,0 +1,19 @@
+.student-div
+{
+    border: 2px solid firebrick;
+    width:100%;
+    
+}
+.grand-container
+{
+    border: 2px solid red;
+    width:90%;
+    
+    height: 58rem;
+    margin-left: 3%;
+    overflow: hidden;
+}
+.heading-div
+{
+    
+}

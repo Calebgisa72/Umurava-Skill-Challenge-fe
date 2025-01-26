@@ -557,6 +557,21 @@ font-weight: bold;
         min-height:30rem;
     
     }  
+    .subscribe-content
+    {
+        
+    }
+     .middle-div
+     {
+        
+        min-height: 17rem;
+     }
+     .address-field
+     {
+       
+        margin-top: 0rem
+     }
+
 
 }
 
@@ -677,6 +692,8 @@ font-weight: bold;
 }
 
 
+
+
 @media(min-width:800px)
 {
     .go-back
@@ -687,6 +704,62 @@ font-weight: bold;
     }
 }
 
+
+@media(min-width:837px)
+{
+    @media(max-width:1245px)
+    {
+    .subscribe-content
+    {
+        
+    }
+     .middle-div
+     {
+        
+        max-height: 2rem;
+        
+        
+     }
+     .address-field
+     {
+       
+        margin-top: 1rem;
+        
+        
+     }
+     .quick-links
+     {
+        
+     }
+     .link-heading
+     {
+        
+        margin-bottom: 1rem;
+     }
+     .subscribe
+     {
+        
+
+        min-width: 40%;
+     }
+     .upper-address
+     {
+        
+        min-width: 60%;
+     }
+     .email-input
+     {
+        
+        max-width: 40%;
+     }
+     .subscribe-button
+     {
+        border-radius: 8px;
+        
+        min-height: 2.4rem;
+     }
+    }
+}
 
 
 @media(min-width:919px)
@@ -870,6 +943,46 @@ font-weight: bold;
 
 
 
+@media(min-width:1245px)
+{
+    .subscribe
+    {
+        
+        min-width: 30%;
+    }
+    .email-input
+    {
+        max-width: 5rem;
+    }
+    .subscribe-button
+    {
+        max-height:80% ;
+    }
+    .subscribe-content
+    {
+        
+        min-width: 100%;
+        margin-left: 0;
+    }
+    .upper-address
+    {
+        min-width: 70%;
+        
+    }
+    .address-field
+    {
+        
+        margin-top: 1.2rem;
+    }
+    .link-heading
+    {
+        
+        margin-bottom: 1.2rem;
+    }
+
+}
+
+
 
 
 
@@ -989,7 +1102,7 @@ font-weight: bold;
      }
      .skill-container
      {
-         border: 1.2px solid blue;
+         
          min-width:5.7rem;
          min-height:1.9rem ;
          border-radius: 10px;
@@ -1178,6 +1291,7 @@ font-weight: bold;
     .copyright-p
     {
         font-size: 19px;
+        
     }
 }
 
@@ -1218,7 +1332,17 @@ font-weight: bold;
     .copyright-part,.copyright-part2
     {
         min-height: 3rem;
+        
     }
+    .copyright-part
+    {
+         justify-content: left;
+    }
+    .copyright-p
+    {
+        margin-left: 0rem;
+    }
+    
     .address-heading
     {
        font-size: 27px;
@@ -1260,6 +1384,16 @@ font-weight: bold;
           font-size: 20px; 
           font-weight: 700; 
     }
+    .quick-links
+    {
+        
+
+    }
+    .link-heading
+    {
+        margin-bottom: 1rem;
+        
+    }
     
 }
 
@@ -1286,19 +1420,72 @@ font-weight: bold;
 
 @media(max-width:393px)
 {
-    .two-div,.upper-div
-    {
-        border: 2px solid forestgreen;
-    }
-    .challenge2
-    {
-        border: 2px solid red;
-    }
+    .go-back
+{
+    
+    width:97%;
+    
+    height:'10%';
+    
+    display: flex;
+
+}
+.back-arrow
+{
+    margin-bottom: 7px;
+}
+   
     .upper-div
     {
         justify-content: space-around;
     }
+    .subscribe-content
+    {
+        
+        min-height: 2rem;
+        
+    }
+    .email-input
+    {
+        max-height: 2rem;
+        font-size: 12px;
+        
+        max-width: 53%;
+    }
+    .subscribe-button
+    {
+        max-height: 2rem;
+        
+    }
+    .footer1,.footer
+    {
+        min-height: 34rem;
+        
+    }
+    .middle-div
+    {
+        
+        min-height:17rem;
+    }
+    .address
+    {
+        
+        gap: 0rem;
+        
+        
+    }
+    .address-field
+    {
+        
+        margin-top: 0rem;
+        max-height: 1.5rem;
+    }
 }
+
+
+
+
+
 
 
 
@@ -1309,3 +1496,22 @@ font-weight: bold;
         margin-top: 100rem;
     }
 }
+
+
+
+
+@media(max-width:483px)
+{
+    .social-div
+    {
+        
+        min-width: 55%;
+    }
+    .social-icon
+    {
+        max-width:29px;
+        max-height: 29px;
+    }
+}
+
+

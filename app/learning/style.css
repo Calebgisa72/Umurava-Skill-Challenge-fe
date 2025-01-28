@@ -1,19 +1,1101 @@
-.student-div
-{
-    border: 2px solid firebrick;
-    width:100%;
-    
-}
+
 .grand-container
 {
-    border: 2px solid red;
-    width:90%;
     
-    height: 58rem;
+    height:56rem;
+    
+    overflow: scroll;
+    width: 12rem;    
+}
+.new-container
+{
+    display: none;  
+}
+.super-div
+{
+    min-height: 80%;
+}
+.grand-container-swap
+{
+    
+    width: 97%;
+   
+    margin-left:1.5% ; 
+    overflow: scroll;
+    justify-content: space-around;
+    
+}
+.added-div
+{
+    
+    width: 94%;
     margin-left: 3%;
+    justify-content: center;
+    min-height: 80%;
+    
+    
     overflow: hidden;
 }
+
 .heading-div
 {
+    
+    height: 8%;
+    width: 100%;
+    overflow: hidden;
+}
+.student-photo-div
+{
+    
+    height: 40%; 
+    width:90% ;
+    margin-left: 5%; 
+}
+.student-image
+{
+    width: 100%;
+    height: 100%;
+}
+.two-div
+{
+    
+    width:100%;
+    margin-top: 15%;
+    height: 50%;
+    
+}
+.student-paragraph
+{
+    width: 100%;
+    height: 59%;
+    
+    
+}
+.para-heading
+{
+    
+    height: 40%;
+    margin-top: 7%; 
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    display: flex;
+    
+}
+.student-p
+{
+    font-size: 17px;
+    
+    color: rgb(10, 116, 209);
+    font-weight: 700;
+}
+.student-body-div
+{
+    
+    height: 35%;
+    margin-top: 1%;
+    display: flex;
+    
+}
+.body-p
+{
+    font-size: 12px;
+    
+}
+.patner-link
+{
+    
+    min-height: 2.3rem;
+    width:40%;
+    border-radius: 6px;
+    background-color: blue;
+    margin-top: 0.3rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.patner-p
+{
+    color: white;
+    font-size: 15px;
+}
+.key-heading
+{
+    
+    width: 100%;
+    margin-top: 7%;
+    height: 3%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.key-p
+{
+    font-weight: bold;
+}
+
+
+.benefit-div,.middle-benefit-div
+{
+    
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+.benefit-emoji,.port-benefit-emoji
+{
+    
+    height: 3rem; 
+    width: 3rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    margin-top: 6%;
+    margin-left: 6%;
+    border-radius: 8px;
+}
+.benefit-image
+{
+    border-radius: 7px;
+    width: 100%;
+    height: 100%;
+}
+.benefit-heading,.port-benefit-heading
+{
+    
+    margin-top: 7%;
+    height: 24%;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    
+    
+}
+.middle-benefit-heading
+{
+    margin-top: 3%;
+    height: 24%;
+    
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+}
+.benefit-p
+{
+    font-size: 13px;
+    color: white;
+    margin-top:0;
+    font-weight: 700;
+}
+.benefit-body,.port-benefit-body
+{
+    
+    height: 30%;
+    width:90%;
+    margin-left: 5%;
+    margin-top: 7%;
+    
+}
+.middle-benefit-body
+{   
+    height: 30%;
+    width:90%;
+    margin-left: 5%;
+    margin-top: 1%;
+    
+    
+}
+.benefit-body-p
+{
+    color: white;
+    font-size: 11px;
+    margin-top: 0;
+
+}
+.top-keys
+{
+    
+    margin-top: 4%;
+    height: 77%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.key-part1,.key-part2
+{
+    
+    width: 46%;
+    height: 55%;
+    
+    border-radius: 9px;
+}
+.key-part3
+{
+    
+    width:100%;
+    height:37%;
+    margin-top: 3%;
+    border-radius: 9px;
+    
+}
+.lower-keys
+{
+    
+    height: 42%;
+    width:100%;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 3%;
+
+}
+.key-part4,.key-part5
+{
+    
+    width:45%;
+}
+.institutions-heading
+{
+    
+    margin-top: 5%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 800;
+    font-size: 15px;
+}
+.institutions-div
+{
+    
+    height: 22%;
+    width: 100%;
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.institution-img
+{
+    width: 6rem;
+    height: 3rem;
+}
+.institution-p
+{
+  font-size: 13px;
+}
+.intergration-body
+{
+    
+    height: 40%;
+    width: 100%;
+    margin-top: 4%;
+    
+   
+    
+}
+.intergration-steps
+{
+    
+    height: 50%;
+    width: 94%;
+    gap:3%;
+    margin-left: 3%;
+}
+.step-part
+{
+    
+    height: 18%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.step-number
+{
+    
+    height: 80%;
+    width:8%;
+    border-radius: 35px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: blue;
+}
+.step-p
+{
+    color: white;
+}
+.step-correspond
+{
+    
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    height: 100%;
+    align-items: center;
+    width:87%;
+}
+.step-text
+{
+    color: black;
+    font-size: 12px;
+    margin: 0;
+}
+.steps-photo-div
+{
+    
+    height: 44%;
+    width: 100%;
+    margin-top: 4%;
+}
+.steps-img
+{
+    width: 100%;
+    height: 100%;
+}
+.ready-div
+{
+    
+    width: 100%;
+    height: 18%;
+    margin-top: 10%;
+    
+    background-image: url(../images/readybackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    border-radius: 15px;
+    border: 2px solid transparent;
+
+}
+.ready-heading
+{
+    
+    height: 28%;
+    width: 75%;
+    margin-top: 10%;
+    margin-left: 12.5%;
+    display: flex;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid transparent;
+}
+.ready-p
+{
+    font-size: 14px;
+    font-weight: 800;
+    margin: 0;
+    color: white;
+
+}
+.ready-link
+{
+    
+    width: 34%;
+    margin-left: 33%;
+    height:18% ;
+    margin-top: 5%;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+.ready-link-p
+{
+    margin: 0;
+    font-size: 12px;
+}
+.footer-div
+{
+    
+    height: auto;
+    width:100%;
+    margin-top: 7%;
+    background-color: rgb(7, 7, 76);
+}
+.super-div
+{
+    height: auto;
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:470px)
+{
+    .key-part3
+    {
+    height:34%;
+
+     }
+     .middle-benefit-heading
+     {   
+            height: 19%;    
+     }
+     .steps-photo-div
+     {
+        
+        height: 50%;
+         width: 100%;
+         margin-top: 4%;
+     }
+}
+
+
+
+
+
+
+@media(min-width:522px)
+{
+    .benefit-p
+    {
+        font-size: 17px;
+    }
+    .benefit-body-p
+    {
+        font-size: 12px;
+    }
+    .key-part3
+    {
+        height: 40%;
+    }
+    .middle-benefit-body
+    {
+        
+        margin-top: 3%;
+    }
+    .steps-photo-div
+    {
+        
+        height: 60%;
+    }
+    .ready-div
+    {
+        margin-top: 20%;
+        height:25%;
+    }
+    .ready-link
+    {
+        
+        width: 35%;
+    }
+    .ready-p
+    {
+        font-size: 18px;
+    }
+    .ready-link-p
+    {
+        font-size: 16px;
+    }
+}
+
+
+@media(min-width:508px)
+{
+      .student-p
+      {
+        font-size: 19px;
+      }
+      .body-p
+      {
+        font-size: 15px;
+      }
+}
+
+
+
+
+
+@media(min-width:796px)
+{
+    .two-div
+    {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .para-heading
+    {
+        
+        margin-top: 0;
+    }
+    
+    .student-body-div
+    {
+        
+       margin-bottom: 0.6rem;
+       height: 5.2rem; 
+       margin-top: 3.4%;
+    }
+    .body-p
+    {
+        font-size: 14px;
+    }
+    
+    
+    .student-photo-div
+    {
+        
+        min-height: 15.3rem;
+       width:90% ;
+       margin-left: 5%; 
+    }
+    .student-image
+    {
+        height: 15rem;
+    }
+    .key-p
+    {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .top-keys
+    {
+        display: flex;
+        
+        height: 40%;
+    }
+    .key-part1,.key-part2
+    {
+        
+        width:30%;
+        height: 100%;
+    }
+    .key-part3
+    { 
+        width:30%;
+        height: 100%;
+        margin-top: 0;
+    }
+    .middle-benefit-heading
+    {
+        margin-top: 6%;
+    }
+    .middle-benefit-body
+    {      
+    margin-top: 20%;
+    }
+    .key-part4
+    {
+        
+        width: 65%;
+        height: 70%;
+        
+    }
+    .key-part5
+    {
+        
+        width: 30%;
+        height:70% ;
+        
+    }
+    .lower-keys
+    {
+          
+    }
+    .port-benefit-heading
+    {
+
+        margin-top: 2%;
+       
+    }
+    .port-benefit-body
+    {
+         margin-top: 2%;
+    }
+   .institution-p
+   {
+        font-size: 23px;
+   }
+   .institution-img
+   {
+         width:15% ;
+         height: 30%;
+   }
+   .step-part
+   {
+    
+    height: 24%;
+    
+    height: 19.8%;
+   }
+   .step-number
+   {
+    
+    width: 7%;
+
+   }
+   .step-correspond
+   {
+    
+      width: 92%;
+      
+      width: 90%;
+   }
+   .step-text
+   {
+     font-size: 13px;
+     
+   }
+   .intergration-steps
+   {
+     
+     height: 70%;
+     margin-top: 5%;
+     width: 48%;
+
+
+    
+    
+    gap:0%;
+    margin-left: 0%;
+    }
+   
+   .steps-photo-div
+   {
+     
+     height: 100%;
+     width: 48%;
+     
+     margin-top: 0;
+   }
+   .intergration-body
+   {
+    
+    display: flex;
+    height: 30%;
+    justify-content:space-between ;
+   }
+   .ready-div
+   {
+    
+    margin-top: 6%;
+   }
+   .ready-heading
+   {
+    
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 7%;
+   }
+   .ready-p
+   {
+    font-size: 20px;
+   }
+   .institutions-heading
+    {
+    
+    margin-top: 0%;
+    
+    }
+    .lower-keys
+    {
+        
+        height: 28%;
+        margin-bottom: 4%;
+    }
+    .key-part4,.key-part5
+    {
+        height: 100%;
+    }
+
+}
+
+
+
+
+@media(min-width:917px)
+{
+     
+   .new-div
+    {
+        
+        height: 27%;
+        margin-top: 3%;
+        overflow: hidden;
+
+    }
+    .two-div
+    {
+        
+        max-height: 10px;
+        margin-top: 0%;
+        
+    }
+}
+
+
+@media(min-width:1005px)
+{
+    
+    .ready-heading
+    {
+        margin-top: 4%;
+    }
+}
+
+
+
+
+
+@media(min-width:1047px)
+{
+    .benefit-body
+    {
+        
+        margin-top: 6%
+    }
+    .benefit-body-p
+    {
+        font-size: 13px;
+    }
+    .benefit-heading
+    {
+        
+        height: 17%;
+    }
+    .middle-benefit-heading
+    {
+        
+        height: 17%;
+    }
+    .middle-benefit-body
+    {
+        
+        margin-top: 7%;
+    }
+    .port-benefit-heading
+    {
+        
+        height: 12%;
+    }
+}
+
+
+
+
+
+
+@media(min-width:1287px)
+{
+    .new-div
+    {
+        height: 35%;
+    }
+    .student-photo-div
+    {
+        
+        height:20rem
+    }
+    .student-image
+    {
+        height: 100%;
+    }
+    .student-paragraph
+    {
+        
+        height: 20rem;
+    }
+   
+    .student-p
+    {
+        font-size: 27px;
+    }
+    .key-p
+    {
+        font-size: 25px;
+    }
+   
+    .body-p
+    {
+        font-size: 18px;
+    }
+    .patner-link
+    {
+        height: 17%;
+    }
+}
+
+
+
+
+
+
+
+@media(min-width:1267px)
+{
+    .ready-heading
+    {
+        width: 30%;
+        margin-left: 35%;
+    }
+}
+
+
+
+
+
+@media(min-width:1569px)
+{
+    
+   
+    .student-p
+    {
+        font-size: 32px;
+    }
+    .body-p
+    {
+        font-size: 19px;
+    }
+    .patner-link
+    {
+        margin-top: 3%;
+    }
+    .benefit-body-p
+    {
+        font-size: 14px;
+    }
+    .step-text
+   {
+          font-size: 18px;
+    }
+    .ready-heading
+    {
+        
+        margin-top: 2%;
+    }
+    .ready-link
+    {
+        margin-top: 3%;
+    }
+}
+
+
+
+
+@media(min-width:1634px)
+{
+    
+   
+    .para-heading
+    {
+        
+        margin-top: 1.4rem;
+        
+    }
+    .student-photo-div
+    {
+        margin-top: 2.3rem;
+    }
+    .super-div
+    {
+        
+        min-height: 80%;
+    }
+    .added-div
+    {
+        
+        min-height: 80%;
+        
+    }
+    .grand-container
+    {
+    
+    min-height: 80%;
+    height:80%;
+    
+    width: 12rem;
+
+    
+    }
+    .new-div
+    {
+        
+        height: 23rem;
+        margin-top: 4rem;
+        
+        
+    }
+    .student-photo-div
+    {
+        
+        height:20rem;
+        margin-top: 1.5rem;
+        border-radius: 40px;
+    }
+    .key-heading
+    {
+        
+        margin-top:4%;
+    }
+    .benefit-body
+    {
+        
+        margin-top:1.4rem ;
+    }
+    .benefit-heading
+    {
+        
+        margin-top: 1rem;
+    }
+    .key-part1,.key-part2,.key-part3
+    {
+        
+        height: 100%;
+    }
+    .top-keys
+    {
+        
+        height: 20rem;
+    }
+    .middle-benefit-body
+    {
+       
+        margin-top: 1.45rem;
+    }
+    .middle-benefit-heading
+    {
+        
+        margin-top: 0.8rem;
+    }
+    .lower-keys
+    {
+        
+        height: 15rem; 
+        margin-bottom: 0; 
+    }
+    .port-benefit-emoji
+    {
+        
+        margin-top: 1.5rem;
+    }
+    .institutions-heading
+    {
+        
+        margin-top: 5rem;
+    }
+    .institutions-div
+    {
+        
+        height: 10rem;
+        
+        
+    }
+    .institution-img
+    {
+        
+        height: 50%;
+        justify-content: space-around;
+    }
+    .intergration-body
+    {
+       
+        height: 25rem;
+    }
+    .intergration-steps
+    {
+       
+        height: 60%;
+        
+    }
+    .step-number
+    {
+       
+        width: 5%;
+    }
+    .ready-div
+    {
+        border-radius: 30px;
+        height: 20rem;
+    }
+    .ready-heading
+    {
+        
+        margin-top: 4rem;
+    }
+}
+
+
+
+
+
+
+
+@media(max-width:323px)
+{
+    .institutions-div
+    {
+        
+    }
+    .institution-img
+    {
+       
+        height: 17%;
+    }
+}
+
+
+
+
+
+@media(max-width:289px)
+{
+  
+    
+   
+    .new-para
+    {
+        
+        margin-top: -99rem;
+    }
+    .new-container
+    {
+        
+        display: block;
+        
+    }
+    .added-cont
+    {
+        
+        margin-top: -96rem;
+    }
+    .new-div
+    {
+        display: none;
+    }
+    .benefit-body-p
+    {
+        font-size: 9px;
+    }
+    .benefit-p
+    { 
+         font-size:11px ;
+    }
+    .ready-link
+    {
+        margin-top: 14%;
+    }
     
 }

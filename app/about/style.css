@@ -1,0 +1,725 @@
+.header-div
+{
+    
+    height: 3.3rem;
+    overflow: hidden;
+}
+.grand-container
+{
+    
+    height: 53rem;
+    max-width: 100%;
+    
+    
+}
+.super-div
+{
+    
+    height: 53rem;
+    margin-bottom: 7%;
+    width: 90%;
+    margin-left: 5%;
+    
+
+}
+.two-div
+{
+    margin-top: 12%;
+    height: 60%;
+    width: 100%;
+    
+}
+.upper-photo-div
+{
+   
+    height: 35%;
+    width: 90%;
+    margin-left: 5%;
+    
+}
+.upper-photo
+{
+    
+    width: 100%;
+    height: 100%;
+     
+}
+.lower-paragraph
+{
+    
+    height: 57%;
+    
+    width: 100%;
+    margin-top: 2%
+}
+.para-heading-div
+{
+    
+    height:10%;
+    width:100% ;
+    margin-top: 4%;
+    display: flex;    
+}
+.heading-p
+{
+    font-size: 18px;
+    font-weight: 900;
+    color: blue;
+     margin: 0;
+}
+.first-paragraph-div
+{
+    
+    width: 100%;
+    height:37% ;
+}
+.first-p
+{
+    font-size: 13px;
+    margin-top: 0.8rem;
+}
+.third-paragraph-div
+{
+    
+    height: 4%;
+    
+    width: 100%;
+    margin-top: 6%;
+
+}
+.second-p
+{
+    font-size: 13px;
+    margin-top: 0;
+}
+.second-paragraph-div
+{
+    
+    height:4%;
+    width: 100%;
+    margin-top: 3%;
+    
+
+}
+.second-para-p
+{
+    font-size: 17px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.reason-part1
+{
+    
+    width:100%;
+    height: 30%;
+    margin-top: 8%;
+}
+.new-upper
+{
+    border: 2px solid transparent;
+    margin-top: 0.2rem;
+    
+}
+.u-problem-div
+{
+    
+    width: 100%;
+    height:100% ;
+    background-color: blue;
+    border: 2px solid transparent;
+    
+    border-radius: 9px;
+}
+.upper-image
+{    
+    width: 3rem;
+    height:3rem;
+    margin-left: 2.2%;
+    border-radius: 9px;
+    border: 2px solid transparent;
+    
+}
+.p-upper-image
+{    
+    width: 3rem;
+    height:3rem;
+    margin-top: 5%;
+    margin-left: 4%;
+    border-radius: 9px;
+    
+}
+.problem-img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 9px;
+}
+.problem-heading
+{
+    
+    height: 13%;
+    margin-top: 10%;
+    margin-left: 2.7%;
+    width: 90%;
+     
+}
+.p-problem-heading
+{
+      
+    height: 13%;
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 90%;
+    
+}
+
+.problem-p
+{
+    font-size: 15px;
+    color: white;
+    font-weight: 800;
+    margin: 0;
+    display: flex;
+}
+.p-lower-para
+{
+    
+    width: 89%;
+    margin-left: 5.4%;
+    height: 40%;
+    margin-top: 10%;
+    
+}
+.lower-para
+{
+    
+    width: 96%;
+    margin-left: 2%;
+    height: 40%;
+    margin-top: 4%;
+}
+.lower-p
+{
+    font-size: 13px;
+    width: 96%;
+    margin-left: 2%;
+    color: white;
+    margin: 0;
+}
+.reason-divs
+{
+    
+    width: 100%;
+    height: 45%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.problem-div
+{
+    
+    width: 47%;
+    height:100% ;
+    background-color: blue;
+    border-radius: 9px;
+    
+    margin-top: 2%;
+}
+.two-platform
+{
+    
+    margin-top: 7%;
+    height: 60%;
+}
+.platform-div
+{
+    
+    width: 100%;
+    height: 53%;
+    margin-top: 4%;
+}
+.platform-heading
+{
+   
+    height: 19%;
+    display: flex;
+    margin-top: 10%;
+
+}
+.platform-heading-p
+{
+    font-size: 14px;
+    margin: 0;
+    font-weight: 900;
+}
+.platform-body
+{
+    
+    margin-top: 4%;
+    height: 30%;
+    
+    margin-top: 10%;
+}
+.platform-body-p
+{
+    font-size: 12px;
+    margin: 0;
+}
+.lower-platform
+{
+    
+    width: 100%;
+    height: 22%;
+    margin-top: 3%;
+}
+.start-button-div
+{
+    
+    width: 40%;
+    margin-top: 2%;
+    height: 10%;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    
+}
+.start-link-p
+{
+    font-size: 15px;
+   margin: 0;
+   color: white;
+   
+}
+.platform-image-div
+{
+    
+    height:41%;
+    width: 100%;
+    margin-top: 8%;
+}
+.platform-img
+{
+    width:100%;
+    height: 100%;
+}
+.footer4
+{
+    width: 100%;
+    background-color: blue;
+    border: 2px solid green;
+    
+   
+}
+.footer1{
+    
+    max-width:100%; 
+    
+    min-height: 20rem;
+    background-color: rgb(7, 7, 76);
+    
+}
+
+
+
+
+
+
+
+
+@media(min-width:433px)
+{
+    .platform-body-p
+    {
+        font-size: 13px;
+    }
+    .platform-body
+    {
+        margin-top: 2%;
+    }
+    .first-p
+    {
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+@media(min-width:737px)
+{
+    .start-button-div
+    {
+        
+        height: 20%;
+        align-content: center;
+    }
+    .start-link-p
+    {
+        font-size: 18px;
+        margin: 4%;
+    }
+    .platform-body-p
+    {
+        font-size: 16px;
+    }
+    .platform-heading-p
+    {
+        font-size: 16px;
+    }
+    .platform-image-div
+    {
+        height:50%;
+    }
+    .two-div
+    {
+        display: flex;
+        flex-direction: row-reverse;
+        
+        height: 27%;
+        gap: 0;
+    }
+    .upper-photo-div
+    {
+        
+        min-height: 15rem;
+        height: 21rem;
+        width: 50%;
+        margin-left: 1.4rem;
+        
+    
+
+    }
+    .lower-paragraph
+    {
+        
+        margin: 0;
+        
+        width: 50%;
+        height: 17rem;
+        margin-top: 1rem;
+        
+    }
+   
+    .first-p
+    {
+        font-size: 13px;
+    }
+    
+    .second-paragraph-div
+    {
+        
+        height: 50%;
+        margin-top: 0;
+    }
+    .second-para-p
+    {
+        font-size: 25px;
+    }
+    .problem-heading
+    {
+        margin-top: 1rem;
+    }
+    .problem-p
+    {
+        font-size: 17px;
+    }
+    .lower-p
+    {
+        font-size: 15px;
+    }
+    
+    .two-platform
+    {
+        display: flex;
+        
+        height: 40%;
+    }
+    .platform-div
+    {
+        
+        height: 100%;
+        margin-top: 0%;
+        width: 50%;
+    }
+    .platform-image-div
+    {
+        
+        height: 70%;
+        margin-top: 8%;
+        width: 45%;
+        margin-left: 5%;
+    }
+    .platform-heading
+    {
+        
+        margin-top: 2%;
+        height: 22%;
+    }
+    .platform-heading-p
+    {
+        font-size: 14px;
+    }
+    .platform-body-p
+    {
+        font-size: 14px;
+    }
+    .start-button-div
+    {
+        
+        height: 10%;
+        margin-top: 7%;
+    }
+    .start-link-p
+    {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+@media(min-width:919px)
+{
+    .heading-p
+    {
+        font-size: 24px;
+    }
+    .first-p
+    {
+        font-size: 16px;
+    }
+    .para-heading-div
+    {
+        margin-top: 0;
+    }
+    .third-paragraph-div
+    {
+        
+        margin-top: -47rem;
+    }
+    .lower-p
+    {
+        font-size: 17px;
+    }
+    .lower-para
+    {
+        
+        margin-top: 1.4rem;
+    }
+    .p-problem-heading
+    {
+
+        margin-top: 7%;
+    }
+    .p-lower-para
+    {
+       
+        margin-top: 3%;
+    }
+    .platform-heading-p
+    {
+        font-size: 19px;
+    }
+    .platform-body-p
+    {
+        font-size: 17px;
+    }
+    .start-button-div
+    {
+        height: 14%;
+    }
+    .start-link-p
+    {
+        font-size: 19px;
+    }
+}
+
+
+
+
+
+@media(min-width:1200px)
+{
+   .third-paragraph-div
+   {
+    
+    margin-top: -17rem;
+   }
+   .first-paragraph-div
+   {
+    
+    margin-top: 6%;
+   }
+}
+
+
+
+
+
+@media(min-width:1547px)
+{
+    .heading-p
+    {
+        font-size: 30px;
+    }
+    .first-p
+    {
+        font-size:17px ;
+    }
+    .lower-p
+    {
+        font-size: 20px;
+    }
+    .platform-heading-p
+    {
+        font-size: 20px;
+    }
+}
+
+
+@media(min-width:1629px)
+{
+    .grand-container
+    {
+        height: 80%;
+        margin-top: 4%;
+
+    }
+    .super-div
+    {
+        height: 80%;
+        
+        
+    }
+    .two-div
+    {
+       
+        margin-top: 6rem;
+    }
+    .upper-photo-div
+    {
+        
+        margin-top: 2rem;
+        height: 30rem;
+        width: 40%;
+    }
+    .lower-paragraph
+    {
+        
+        margin-top: 6rem;
+        height:20rem ;
+    }
+    .super-div
+    {
+        width: 94%;
+        margin-left: 3%;
+    }
+    .heading-p
+    {
+        font-size: 32px;
+    }
+    .first-p
+    {
+        font-size: 22px;
+    }
+    .first-paragraph-div
+    {
+        border: 2px solid transparent;
+        margin-top: 1rem;
+    }
+    .third-paragraph-div
+    {
+        
+        margin-top: -5rem;
+    }
+    .second-para-p
+    {
+        font-size: 33px;
+    }
+    .reason-part1
+    {
+        
+        margin-top: 3rem;
+        height: 15rem;
+    }
+    .reason-divs
+    {
+        
+        height:22rem;
+    }
+    .p-problem-heading
+    {
+        
+        margin-top: 1rem;
+    }
+    .problem-p
+    {
+        font-size: 20px;
+    }
+    .new-upper
+    {
+        border: 2px solid transparent;
+        margin-top: 1rem;
+    }
+
+    .two-platform
+    {
+        
+        height: 32rem;
+    }
+    .platform-div
+    {
+        
+        width:60%;
+    }
+    .platform-image-div
+    {
+        
+        height:26rem ;
+        margin-top: 3rem;
+        width: 40%;
+    }
+    .platform-heading
+    {
+        
+        height: 15%;
+    }
+    .platform-heading-p
+    {
+        font-size: 27px;
+    }
+    
+    .platform-body-p
+    {
+        font-size: 27px;
+    }
+    .lower-platform
+    {
+        
+        margin-top: 1rem;
+    }
+    .start-button-div
+    {
+        
+        margin-top: 2.5rem;
+    }
+   
+}
+
+
+
+
+@media(min-width:825px)
+{
+    .footer1
+    {
+       
+        /* min-width:50rem; */
+    }
+}

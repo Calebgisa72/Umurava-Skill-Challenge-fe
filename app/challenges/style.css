@@ -7,9 +7,11 @@
     
     width: 97%;
     min-height: 80%;
-    margin-left:1.5% ; 
-    overflow: scroll;
+    margin-left:1.4% ; 
+    overflow-y: scroll;
+    overflow-x: hidden;
     justify-content: space-around;
+    
     
 }
 .subscribe-p
@@ -321,6 +323,7 @@ font-weight: bold;
 .footer1{
     
     max-width:100%; 
+    
     
     min-height: 20rem;
     background-color: rgb(7, 7, 76);
@@ -750,7 +753,7 @@ font-weight: bold;
      .subscribe
      {
         
-
+        
         min-width: 40%;
      }
      .upper-address
@@ -959,7 +962,7 @@ font-weight: bold;
     .subscribe
     {
         
-        min-width: 30%;
+        min-width: 40%;
     }
     .email-input
     {
@@ -967,7 +970,8 @@ font-weight: bold;
     }
     .subscribe-button
     {
-        max-height:80% ;
+        min-height:2.2rem ;
+        
     }
     .subscribe-content
     {
@@ -1207,19 +1211,27 @@ font-weight: bold;
     .middle-div
     {
         display: flex;
+        
+        min-width: max-content;
     }
     .upper-address
     {
         
-        width:50%;
+       
         margin-top: 2rem;
         height: 3rem;
+       
+    }
+    .new-upper
+    {
+        
+        min-width:60%;
     }
     .subscribe
     {
         
-
-        max-width:30%;
+        
+        width:20%;
         margin-top: 2rem;
         
         min-height: 18rem;
@@ -1230,17 +1242,15 @@ font-weight: bold;
         margin-top: 2rem;
     }
     
-    .footer
+    .footer                              /*ndnddndnndndn*/
     {
-        min-height: 15rem;
-        
-        
-        
+        min-height: 15rem;    
         margin-bottom: -90rem;
     }
     .upper-footer
     {
         max-height: 8rem;
+        
     }
     .social-div
     {
@@ -1251,6 +1261,7 @@ font-weight: bold;
     {
         font-size: 15px;
     }
+    
 }
 
 
@@ -1303,6 +1314,20 @@ font-weight: bold;
     {
         font-size: 19px;
         
+    }
+    .subscribe-heading
+    {
+        
+        width:90%;
+    }
+    .subscribe-button
+    {
+        min-height: 2.8rem;
+        
+    }
+    .subscribe-text
+    {
+        font-size: 15px;
     }
 }
 
@@ -1524,5 +1549,10 @@ font-weight: bold;
         max-height: 29px;
     }
 }
+
+
+
+
+
 
 

@@ -59,7 +59,8 @@ const Footer = () => {
         </div>
          <hr className="custom-line" />
              <div className='middle-div'>
-                <div className='upper-address'>
+                <div className='new-upper'>
+                   <div className='upper-address'>
                       <div className='address'>
                          <div className='address-heading'>
                                <p className='address-heading'>Our Address</p>
@@ -126,6 +127,7 @@ const Footer = () => {
                                  </div>
                              </Link>
                       </div>
+                   </div>
                 </div>
 
                 

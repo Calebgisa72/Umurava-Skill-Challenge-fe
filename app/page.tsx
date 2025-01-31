@@ -6,6 +6,7 @@ import Footer from "./components/footer";
 import Challenge from "./components/challenge";
 import Button from "./components/button";
 import SkillSection from "./components/skillSection";
+import PayrollDashboard from "./components/PayrollDashboard";
 
 const LandingPage: React.FC = () => {
   return (
@@ -20,6 +21,7 @@ const LandingPage: React.FC = () => {
         <Experience />
       </div>
       <SkillSection />
+      <PayrollDashboard />
       <div className="challenge-container py-16">
         <div className="mx-36 flex justify-between gap-5">
           <Challenge description="design a dashboard for Sokofund" />

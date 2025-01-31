@@ -1,11 +1,11 @@
 import React from "react";
 import Header from "./components/header";
 import HeroSection from "./components/heroSection";
-import EnhanceEmploymentPath from "./components/experience";
-import EarnRecognitionPrizes from "./components/experienceCard";
+import Experience from "./components/experience";
 import Footer from "./components/footer";
 import Challenge from "./components/challenge";
 import Button from "./components/button";
+import SkillSection from "./components/skillSection";
 
 const LandingPage: React.FC = () => {
   return (
@@ -17,19 +17,7 @@ const LandingPage: React.FC = () => {
         <HeroSection />
       </div>
       <div className="experience-container">
-        <EnhanceEmploymentPath />
-      </div>
-      <div className="experience-card-container">
-        <EarnRecognitionPrizes />
-      </div>
-      <div className="experience-card-container">
-        <EarnRecognitionPrizes />
-      </div>
-      <div className="experience-card-container">
-        <EarnRecognitionPrizes />
-      </div>
-      <div className="experience-card-container">
-        <EarnRecognitionPrizes />
+        <Experience />
       </div>
       <div className="challenge-container">
         <div className="mx-36 flex justify-between gap-5">
@@ -41,6 +29,7 @@ const LandingPage: React.FC = () => {
           <Button>View More</Button>
         </div>
       </div>
+      <SkillSection />
       <div className="footer1">
         <Footer />
       </div>

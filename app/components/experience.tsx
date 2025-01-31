@@ -1,30 +1,25 @@
 import React from "react";
-import Button from "./button"
-import Hero from "../images/hero.png";
-import Image from "next/image";
+import Upperproblem from "./upperproblem";
+import Problem from "./problem";
+import Headings from "./headings";
 
 const Experience: React.FC = () => {
   return (
-    <section className="bg-white py-16">
-      <div className="container mx-auto">
-        <div className="flex items-center">
-          <div className="flex-1">
-            <Image
-              src={Hero}
-              alt="Skills Challenges"
-              width={500}
-              height={500}
-            />
+    <section className="bg-[#F9FAFB] py-16">
+      <div className="container mx-36">
+        <Headings
+          subtitle="Join Skills Challenges Program to accelerate your career growth and
+          become part of Africa’s largest workforce of digital professionals."
+          title="Experience a New Way of Building Work Experience" 
+          className="mx-72"
+        />
+        <div className="mx-36">
+          <div className="reason-part1">
+            <Upperproblem />
           </div>
-          <div className="ml-12 max-w-xl">
-            <h2 className="text-3xl font-bold mb-4">
-              Enhance Your Employment Path
-            </h2>
-            <p className="text-lg mb-8">
-              Develop the in-demand skills and build a strong portfolio to
-              increase your chances of landing your dream job or contract.
-            </p>
-            <Button size="large">Get Started</Button>
+          <div className="reason-divs">
+            <Problem />
+            <Problem />
           </div>
         </div>
       </div>

@@ -19,7 +19,8 @@ const LandingPage: React.FC = () => {
       <div className="experience-container">
         <Experience />
       </div>
-      <div className="challenge-container">
+      <SkillSection />
+      <div className="challenge-container py-16">
         <div className="mx-36 flex justify-between gap-5">
           <Challenge description="design a dashboard for Sokofund" />
           <Challenge description="design a dashboard for Sokofund" />
@@ -29,7 +30,6 @@ const LandingPage: React.FC = () => {
           <Button>View More</Button>
         </div>
       </div>
-      <SkillSection />
       <div className="footer1">
         <Footer />
       </div>

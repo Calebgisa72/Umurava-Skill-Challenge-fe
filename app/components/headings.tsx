@@ -12,7 +12,7 @@ const Heading: React.FC<HeadingProps> = ({
   className = "",
 }) => {
   return (
-    <div className={`mx-auto max-w-4xl ${className}`}>
+    <div className={`${className}`}>
       <h2 className="text-[40px] text-center font-bold mb-4">{title}</h2>
       <p className="text-[18px] mb-8 text-center">{subtitle}</p>
     </div>

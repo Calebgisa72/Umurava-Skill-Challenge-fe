@@ -5,11 +5,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 
+const testimonials = [1, 2, 3, 4, 5]; // Placeholder for dynamic data
+
 const Testimonial = () => {
   return (
     <div className="bg-white py-16">
       <div className="container mx-auto px-4">
-        <div className="max-w-2xl mb-12">
+        {/* Heading */}
+        <div className="max-w-2xl mb-12 text-center mx-auto">
           <h2 className="text-4xl font-bold mb-4">
             Users are in Love with Skills Challenges Program
           </h2>
@@ -19,42 +22,31 @@ const Testimonial = () => {
           </p>
         </div>
       </div>
-      <div className="relative ml-32">
+
+      {/* Swiper */}
+      <div className="relative ml-0 lg:ml-32">
         <Swiper
-          slidesPerView={2.5}
+          breakpoints={{
+            320: { slidesPerView: 1 },
+            640: { slidesPerView: 1.5 },
+            1024: { slidesPerView: 2.5 },
+          }}
           spaceBetween={24}
-          pagination={{
-            type: "bullets",
-            clickable: true,
-            el: ".swiper-pagination",
-            bulletActiveClass: "swiper-pagination-bullet-active",
-          }}
-          autoplay={{
-            delay: 3000,
-            disableOnInteraction: false,
-          }}
+          pagination={{ clickable: true }}
+          autoplay={{ delay: 3000, disableOnInteraction: false }}
           loop={true}
           modules={[Autoplay, Pagination]}
         >
-          <SwiperSlide>
-            <TestimonialCard />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TestimonialCard />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TestimonialCard />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TestimonialCard />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TestimonialCard />
-          </SwiperSlide>
+          {testimonials.map((_, index) => (
+            <SwiperSlide key={index}>
+              <TestimonialCard />
+            </SwiperSlide>
+          ))}
           <div className="swiper-pagination mt-8" />
         </Swiper>
       </div>
 
+      {/* Pagination Styling */}
       <style jsx global>{`
         .swiper-pagination {
           position: relative !important;

@@ -1,6 +1,5 @@
 import React from 'react'
 import '../learning/style.css';
-import { BriefcaseBusiness } from 'lucide-react';
 import benefit from '../images/benefit.png'
 import Image from 'next/image';
 

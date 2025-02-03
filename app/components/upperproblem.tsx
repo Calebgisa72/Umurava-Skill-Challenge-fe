@@ -6,7 +6,7 @@ import Image from 'next/image';
 const Upperproblem = () => {
   return (
     <>
-    <div className='u-problem-div'>
+    <div className='u-problem-div p-[48px]'>
       <div className='new-upper'>
       <div className='upper-image'>
             <Image src={icon} alt='' className='problem-img'/>    

@@ -1,0 +1,1193 @@
+.grand-container
+{
+    
+    height: 20%;
+    width: 96%;
+    margin-left: 2%;
+    display: flex;
+    
+}
+.two-div
+{
+   
+    width:100%;
+    height:auto;
+}
+.upper-div{
+    
+   width:'100%';
+   height:'50%';
+   display: flex;
+   align-items: center;
+   
+
+}
+.right-container
+{
+    
+    width:100%;
+    height: 20%;
+    position: relative;
+}
+.nav-div
+{
+     height: 100%;
+     width: 45%;
+     background-color: blue;
+     
+     position: fixed;
+}
+.nav-image-div
+{
+    
+    height: 6%;
+    width: 30%;
+    
+    height: 100%;
+   
+}
+.top-div
+{
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header-photo
+{
+   
+    width: 100%;
+    height: 80%;
+
+}
+.upper-link
+{
+   
+    height: 4%;
+    width: 95%;
+    display: flex;
+    margin-left: 2.5%;
+    border-radius: 7px;
+    margin-top: 2%;
+    
+
+}
+.lower-link
+{
+   
+    height: 4%;
+    width: 95%;
+    display: flex;
+    margin-left: 1.2%;
+    border-radius: 7px;
+    margin-bottom: 7%;
+    
+
+}
+.upper-link-active
+{
+   
+    height: 4%;
+    width: 95%;
+    margin-left: 2.5%;
+    border-radius: 7px;
+    display: flex;
+    margin-top: 2%;
+    background-color: white;
+
+}
+
+.link-icon
+{
+    width:20%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+.link-text-div
+{
+    
+    height: 100%;
+    width:80%;
+    display: flex;
+    align-items: center;
+}
+.link-p
+{
+    font-size: 12px;
+    color: white;
+    margin: 0;
+}
+.link-p-active
+{
+    font-size: 12px;
+    color: blue;
+    margin: 0;
+}
+.link-emoji
+{
+  color: white;
+  width:2vh;
+  height: 2vh;
+  
+}
+.link-emoji-active
+{
+    color: blue;
+    width:2vh;
+    height: 2vh;
+   
+}
+.lower-nav
+{
+    
+    
+    width:100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.logout-div
+{
+    
+    height: 7%;
+    width: 100%;
+    display: flex;
+    margin-top: 2rem;
+    
+}
+.profile
+{
+    margin-left: 3%;
+    border-radius: 100px;
+    height: 90%;
+    margin-top: 1%;
+    width:20%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: aqua;
+}
+.active-dot
+{
+    
+    height: 0.7rem;
+    width: 0.7rem;
+    border-radius: 50px;
+    background-color: green;
+    margin-top: 12.5%;
+    margin-left: -4%;
+}
+.user-address
+{
+    
+    width:60% ;
+    display: block;
+    align-items: center;
+    margin-left: 2%;
+}
+.user-p
+{
+    color: white;
+    font-size: 12px;
+    margin: 0;
+    
+}
+.logout-icon
+{
+    
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logout-image
+{
+    color: white;
+    width: 80%;
+    height: 80%;
+    margin-bottom: 36%;
+}
+.header-div
+{
+    
+    
+    width: 97%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.new-header
+{
+   height: 8%;
+   display: flex;
+   flex-direction: column-reverse;
+   
+}
+.minimize-div
+{
+   
+   width: 15%;
+   height: 60%;
+   
+   
+   
+}
+.minimize-icon
+{
+    color: white;
+    margin-right: 76%;
+}
+.nav-div-none
+{
+    display: none;
+}
+.view-div
+{
+    position:fixed ;
+    width: 10%;
+    height: 4%;
+    
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    background-color: black;
+}
+.view-div-none
+{
+    display: none;
+    
+}
+.new-icon
+{
+   margin-top:8%;
+   color: blue;
+}
+.real-div
+{
+    
+    width:100%;
+    height: 100%;
+}
+.search-div
+{
+
+    
+    width:100%;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4%
+}
+.search-icon-div
+{
+    
+    width: 10%;
+    height: 100%;
+    margin-left: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-body
+{
+    
+    width:60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-input
+{
+    width: 100%;
+    border: 0px solid black;
+    height: 60%;
+}
+.notification-div
+{
+    
+    width:12%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.user-div
+{
+    
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    display: flex;
+    width: 8%;
+    height: 70%;
+}
+.challenge-div
+{
+    
+    height: 6%;
+    margin-top: 2%;
+    
+}
+
+.bigger-p
+{
+    font-weight: 900;
+    color: #000;
+    font-size: 15px;
+    margin: 0;
+}
+.smaller-p
+{
+    font-size: 11px;
+    
+}
+
+.status-bar
+{
+    
+    width: 1.2%;
+    height: 100%;
+    background-color: blue;
+}
+.part-1
+{
+    
+    height: 90%;
+    margin-right: 3%;
+    width: 40vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(152, 152, 231);
+    border-radius: 6px;
+}
+.part-2
+{
+     
+    height: 90%;
+    margin-right: 3%;
+    width: 40vh;
+    display: flex;
+    align-items: center;
+    
+    border-radius: 6px; 
+}
+.emoji-div
+{
+    
+    width:20%rem;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.challenge-img
+{
+    width: 50%;
+    height: 50%;
+}
+.ch-p
+{
+    font-size: 8px;
+    margin: 0;
+}
+.middle-div
+{
+   
+    height: 100%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    width:60%
+}
+.score
+{
+    width:15%;
+    height: 60%;
+    border-radius: 50px;
+    background-color: rgb(69, 69, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.score2
+{ 
+    width:15%;
+    height: 60%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.score-p
+{
+    color: black;
+    font-size: 9px;
+    margin: 0;
+}
+.real-challenges
+{
+    
+    height:78%;
+    
+    width: 100%;
+    margin-top: 3%;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.status-div
+{
+    
+    width: 100%;
+    height: 5%;
+    margin-top: 2%;
+    align-items: center;
+   
+    display: flex;
+    
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
+    white-space: nowrap;
+    justify-content: space-between;
+    gap: 2%;
+}
+.status-part1,.status-part2
+{
+    
+    min-width: 120px;
+    gap:12%;
+    height: 96%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 9px;
+    
+    
+}
+.status-part2
+{
+    background-color: rgb(214, 214, 235);
+}
+.status-part1
+{
+    background-color: rgb(159, 159, 201);
+}
+.icon-div
+{
+    
+    width: 19%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    
+}
+.middle-cont
+{
+   
+    width: 59%;
+    height: 100%;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.number-div,.number-div2
+{
+    
+    width: 20%;
+    height: 70%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    margin-right: 2%;
+    align-items: center;
+    
+}
+.number-div
+{
+
+    background-color: rgb(100, 100, 241);
+}
+.p-icon
+{
+   width: 15;
+   height: 15;
+}
+.middle-p
+{
+    font-size: 12px;
+    
+}
+.onto-p
+{
+    font-size: 14px;
+    margin: 0;
+    
+}
+.user-icon
+{
+    width: 80%;
+    height: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+.dashbord-div
+{
+    
+    width: 100%;
+    height: 6%;
+    display: flex;
+    margin-top: 2%;
+}
+.added-a
+{
+   
+    width: 18%;
+    height: 100%;
+    
+    display: inline-block;
+
+}
+.address-div
+{
+    
+    width:92%;
+    height: 100%;
+
+}
+.profile-link
+{
+    
+    width:100%;
+    height: 100%;
+    background-color: blue;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.top-p
+{
+    font-weight:800 ;
+    font-size: 20px;
+    margin: 0;
+}
+.lower-p
+{
+    font-size: 15px;
+    margin-top: -0.4%;
+}
+.profile-emoji
+{
+    
+    width:40%;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    height: 100%;
+}
+.link-text-div2
+{
+    width:60%;
+    height: 100%;
+    display: flex;
+    
+    justify-content: left;
+    align-items: center;
+}
+.profile-p
+{
+    color: white;
+    font-size: 14px;
+}
+.profile-icon
+{
+    color: white;
+}
+.new-status
+{
+    
+    min-height: 3.2rem;
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto; 
+    white-space: nowrap;
+    gap: 13%;
+}
+.new-part
+{
+    
+    min-width: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vertical-status
+{
+    width: 3%;
+    height: 100%;
+    background-color: blue;
+}
+.middle-data
+{
+    
+    width:80%;
+    height: 100%;
+    justify-content: center;
+    margin-left:2%;
+    display: flex;
+    flex-direction: column;
+}
+.senior-p
+{
+    font-size: 12px;
+    margin-top: 2%;
+}
+.junior-p
+{
+   font-size: 18px;
+   font-weight: 900;
+}
+.front-img
+{
+    
+    width: 18%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(153, 153, 206);
+    
+    border-radius: 50px;
+}
+.front-icon
+{
+    width:1rem;
+    height: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:453px)
+{
+    .user-div
+    {
+        
+        width: 8%;
+        height: 80%;
+    }
+    .profile
+    {
+        
+        width: 20%;
+        height: 100%;
+    }
+}
+
+
+@media(min-width:483px)
+{
+    .nav-div
+    {
+        width:40%;
+    }
+    .active-dot
+    {
+        margin-top: 15%;
+        margin-left: -5%;
+    }
+}
+
+@media(min-width:560px)
+{
+    .nav-div
+    {
+        width:220px;
+    }
+    .active-dot
+    {
+        margin-top: 15%;
+        margin-left: -5%;
+    }
+}
+
+
+
+@media(min-width:531px)
+{
+    .status-div
+    {
+        gap: 0%;
+        justify-content: left;
+    }
+    .status-part1,.status-part2
+    {
+        margin-right: 2%;
+    }
+}
+
+
+
+
+@media(min-width:609px)
+{
+    .challenge-div
+     {
+    
+    height: 8%;
+    margin-top: 2%;
+
+    
+     }
+     .bigger-p
+     {
+        font-size: 20px;
+     }
+     .smaller-p
+     {
+        font-size: 15px;
+     }
+}
+
+
+
+
+@media(min-width:645px)
+{
+    @media(max-width:800px)
+    {
+    .two-div
+    {
+        min-width:fit-content;
+        display: contents;
+        
+
+    }
+    .real-challenges
+    {
+       
+        height: 100rem;
+        
+    }
+    .added-two-div
+    {
+        display: contents;
+    }
+   }
+}
+
+
+
+@media(min-width:800px)
+{
+    .nav-div-none,.nav-div
+    {
+        
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        height: 51rem;
+        width: 35%;
+        background-color: blue;
+        
+            
+    }
+   
+    .real-challenges
+    {
+        
+        height: 38rem;
+    }
+    .grand-container
+    {
+        
+        height:51rem
+    }
+    .right-container
+    { 
+        
+        display: flex;
+        height: 51rem;
+    }
+    .view-div,.view-div-none
+    {
+        display: none;
+    }
+    .minimize-div
+    {
+        display: none;
+    }
+    .real-div
+    {
+        
+        margin-left: 2%;
+    }
+   
+    .upper-link-active,.upper-link
+    {
+        
+        height: 110%;
+        
+        margin-top: 5%;
+    }
+    .search-icon-div
+    {
+
+        margin-left: -4%;
+    }
+    .nav-image-div
+    {
+    
+    height: 7%;
+    width: 25%;
+    
+    height: 100%;
+    }
+    
+    .link-emoji,.link-emoji-active
+    {
+        
+        width: 23px;
+        height: 23px;
+    }
+    
+    .link-p,.link-p-active
+    {
+        font-size: 12px;
+    } 
+    .logout-div
+    {
+    height: 10%;
+    width: 100%;
+      
+   }
+   .search-body
+   {
+    width: 90%;
+   }
+   .user-div
+   {
+    width: 7%;
+   }
+   .profile
+   {
+    
+    height: 70%;
+    width: 30%;
+   }
+   .active-dot
+   {
+     width: 1rem;
+     height: 0.8rem;
+   }
+   .user-p
+   {
+    font-size: 15px;
+   }
+   .logout-icon
+   {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .logout-image
+   {
+     margin-top: 32%;
+   }
+}
+
+
+
+@media(min-width:880px)
+{
+    .profile
+    {
+        width:20%;
+    }
+}
+
+
+@media(min-width:1026px)
+{
+    .profile
+    {
+        width:15%;
+    }
+    .active-dot
+    {
+        width:0.7rem;
+        margin-top: 10%;
+    }
+    .user-div
+    {
+        width: 5%;
+    }
+}
+
+
+
+@media(min-width:1141px)
+{
+    .two-div
+    {
+        display: flex;
+        justify-content: space-between;    
+    }
+    .real-challenges
+    {
+        height: 37rem;
+    }
+    .top-div
+    {
+        width: 48.4%;
+        
+        height: 32rem;
+    }
+    .nav-div,.nav-div-none
+    {
+         min-width: 25%;
+    }
+    .added-two-div
+    {
+        
+        max-height: 34rem;
+        overflow: hidden;
+    }
+}
+
+
+
+
+
+
+
+@media(min-width:1396px)
+{
+    .profile
+    {
+        width:12%;
+    }
+    .active-dot
+    {
+        margin-left: -2.1%;
+        margin-top: 8%;
+    }
+}
+
+
+
+
+
+
+@media(min-width:1630px)
+{
+    .grand-container
+    {
+       
+       height: 57rem;
+       min-width: 90rem; 
+       margin-left: -700rem;
+    }
+    .right-container
+    {
+        
+        height: 57rem;
+    }
+    .nav-div,.nav-div-none
+    {
+        height: 57rem;
+    }
+    .profile
+    {
+        
+        width: 10%;
+    }
+    .active-dot
+    {
+        margin-top: 8%;
+        margin-left:-2% ;
+    }
+    .user-p
+    {
+    color: white;
+    font-size: 17px;
+    margin: 0;
+    
+     }
+     .user-address
+     {
+        
+        width: 40%;
+     }
+     .nav-image-div
+     {
+        
+        width: 20%;
+        height: 100%;
+     }
+     .search-div
+     {
+        
+        height: 7%;
+     }
+     .notification-div
+     {
+       
+        width: 5%;
+     }
+     .user-div
+     {
+        border: 1px solid black;
+        width: 4%;
+     }
+     .link-p,.link-p-active
+     {
+        font-size: 17px;
+     }
+     .search-body
+     {
+        
+        width: 90%;
+     }
+     .user-icon
+     {
+        width:50%;
+        height: 50%;
+     }
+     .real-challenges
+     {
+       
+        height: 37.5rem;
+     }
+    .added-two-div
+    {
+        
+        padding-top: 1.7%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-left: -12rem;
+        max-height: 29rem;
+        
+    }
+    .top-div
+    {
+        display: flex;
+        width: 48%;
+        
+    }
+    .two-div
+    {
+        display: contents;
+        justify-content: space-between;
+    }
+     
+     
+}
+
+
+
+
+@media(max-width:379px)
+{
+    .nav-div
+    {
+        width: 190px;
+    }
+}
+
+
+
+/* adding responsiveness of dashbord heading */
+
+@media(max-width:800px)
+{
+    .profile-link
+    {
+        min-height: 2.8rem;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .profile-icon
+    {
+        width: 18px;
+        height: 18px;
+    }
+    .profile-p
+    {
+        font-size: 10px;
+    }
+    .lower-p
+    {
+       font-size: 12px;
+    }
+    .added-a
+    {
+        width:20%
+    }
+}
+
+
+
+
+
+
+@media(max-width:399px)
+{
+    .top-p
+    {
+        font-size: 14px;
+    }
+    .lower-p
+    {
+        font-size: 12px;
+    }
+    .dashbord-div
+    {
+        margin-top: 7%;
+    }
+}
